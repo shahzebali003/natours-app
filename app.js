@@ -19,7 +19,6 @@ app.use(express.json());
 // FOR STATIC FILES
 app.use(express.static(`${__dirname}/public`));
 
-
 // app.use((req,res,next)=>{
 //     console.log('Hello from the middleware!!')
 //     next();
@@ -29,7 +28,6 @@ app.use((req,res,next)=>{
     req.requestTime= new Date().toISOString();
     next();
 })
-
 
 // app.get('/', (req, res)=>{
 //     //res.status(200).send('Hello from the server side!!');
