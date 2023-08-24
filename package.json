@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon server.js",
     "start:prod": "NODE_ENV=production nodemon server.js",
-    "debug":  "ndb server.js"
+    "debug": "ndb server.js"
   },
   "author": "shahzeb",
   "license": "ISC",
@@ -28,6 +28,7 @@
     "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-react": "^7.33.1",
     "ndb": "^1.1.5",
-    "prettier": "^3.0.1"
+    "prettier": "^3.0.1",
+    "typescript": "^5.1.6"
   }
 }
